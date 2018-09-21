@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="499.0" y="962.5">donjon.action.Look</node>
+    <node x="-281.6666666666666" y="-283.3333333333333">donjon.room.Room</node>
+    <node x="1167.4999999999995" y="1231.0">donjon.scanner.ScannerInt</node>
+    <node x="-457.49999999999983" y="315.0000000000001">donjon.personnage.Mob</node>
+    <node x="721.6666666666667" y="-276.66666666666663">donjon.item.Item</node>
+    <node x="1165.0" y="1054.0">donjon.generate.Generate</node>
+    <node x="343.0" y="104.33333333333343">donjon.item.Life</node>
+    <node x="1162.4999999999998" y="1373.5">donjon.scanner.ListChoser</node>
+    <node x="757.0" y="962.5000000000001">donjon.action.Move</node>
+    <node x="-32.66666666666663" y="290.3333333333333">donjon.room.ExitRoom</node>
+    <node x="-285.2499999999999" y="709.5">donjon.personnage.Monster</node>
+    <node x="337.00000000000017" y="686.5000000000001">donjon.action.Action</node>
+    <node x="800.375" y="-80.78571428571433">donjon.item.Gold</node>
+    <node x="360.70833333333326" y="-92.33333333333331">donjon.item.Potion</node>
+    <node x="627.6666666666667" y="126.0">donjon.item.Strength</node>
+    <node x="129.50000000000017" y="957.5">donjon.action.Use</node>
+    <node x="-457.7499999999998" y="706.5">donjon.personnage.Player</node>
+    <node x="1072.0" y="191.00000000000023">donjon.main</node>
+    <node x="1130.0416666666665" y="-91.6666666666666">donjon.item.Bandit</node>
+    <node x="1050.25" y="664.9999999999999">donjon.adventureGame.AdventureGame</node>
+    <node x="1068.25" y="292.50000000000006">donjon.room.Direction</node>
+    <node x="-277.4999999999999" y="955.0000000000001">donjon.action.Attack</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="donjon.item.Gold" target="donjon.item.Item">
+      <point x="0.0" y="-82.0" />
+      <point x="814.1369047619046" y="-92.8571428571428" />
+      <point x="813.2857142857142" y="-161.42857142857144" />
+      <point x="0.0" y="42.5" />
+    </edge>
+    <edge source="donjon.item.Potion" target="donjon.item.Item">
+      <point x="0.0" y="-29.5" />
+      <point x="409.7083333333333" y="-174.28571428571428" />
+      <point x="751.095238095238" y="-165.71428571428567" />
+      <point x="-59.33333333333337" y="42.5" />
+    </edge>
+    <edge source="donjon.item.Bandit" target="donjon.item.Item">
+      <point x="0.0" y="-95.5" />
+      <point x="1259.779761904762" y="-135.71428571428572" />
+      <point x="871.1904761904765" y="-135.71428571428567" />
+      <point x="59.33333333333337" y="42.5" />
+    </edge>
+    <edge source="donjon.room.ExitRoom" target="donjon.room.Room">
+      <point x="0.0" y="-16.5" />
+      <point x="0.0" y="238.5" />
+    </edge>
+    <edge source="donjon.action.Use" target="donjon.action.Action">
+      <point x="0.0" y="-55.5" />
+      <point x="291.3333333333335" y="908.3333333333331" />
+      <point x="467.3333333333335" y="910.0" />
+      <point x="-41.5" y="55.5" />
+    </edge>
+    <edge source="donjon.action.Look" target="donjon.action.Action">
+      <point x="0.0" y="-55.5" />
+      <point x="548.0" y="911.6666666666667" />
+      <point x="547.0" y="855.0" />
+      <point x="41.5" y="55.5" />
+    </edge>
+    <edge source="donjon.personnage.Player" target="donjon.personnage.Mob">
+      <point x="0.0" y="-16.5" />
+      <point x="-416.9166666666665" y="615.3333333333334" />
+      <point x="-415.4166666666665" y="615.3333333333334" />
+      <point x="-86.25" y="121.0" />
+    </edge>
+    <edge source="donjon.personnage.Monster" target="donjon.personnage.Mob">
+      <point x="0.0" y="-56.0" />
+      <point x="-191.41666666666663" y="683.6666666666666" />
+      <point x="-192.91666666666663" y="637.0000000000001" />
+      <point x="86.25" y="121.0" />
+    </edge>
+    <edge source="donjon.item.Strength" target="donjon.item.Potion">
+      <point x="0.0" y="-68.5" />
+      <point x="735.0" y="59.571428571428555" />
+      <point x="465.27976190476187" y="49.57142857142861" />
+      <point x="27.0" y="29.5" />
+    </edge>
+    <edge source="donjon.action.Move" target="donjon.action.Action">
+      <point x="0.0" y="-55.5" />
+      <point x="852.6666666666667" y="903.3333333333333" />
+      <point x="631.6666666666667" y="898.3333333333334" />
+      <point x="124.5" y="55.5" />
+    </edge>
+    <edge source="donjon.item.Life" target="donjon.item.Potion">
+      <point x="0.0" y="-68.5" />
+      <point x="407.00000000000006" y="72.4285714285715" />
+      <point x="397.70833333333326" y="26.000000000000057" />
+      <point x="-27.0" y="29.5" />
+    </edge>
+    <edge source="donjon.action.Attack" target="donjon.action.Action">
+      <point x="0.0" y="-55.5" />
+      <point x="-117.33333333333326" y="860.0" />
+      <point x="381.0000000000002" y="868.3333333333335" />
+      <point x="-124.5" y="55.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="633.6666666666665" y="818.3333333333333" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
