@@ -8,7 +8,7 @@ import donjon.room.*;
 
 public class main {
     public static void main (String[] args) {
-        Player player = ;
+        Player player = new Player();
         Room start = new Room();
 
         AdventureGame the_game = new AdventureGame(start, player);
