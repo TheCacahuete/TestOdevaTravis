@@ -5,7 +5,7 @@ import donjon.personnage.Player;
 import java.util.List;
 import java.util.Random;
 
-public class Bandit {
+public class Bandit implements Item{
     private int value;
     private List<Item> items;
 
